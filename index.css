@@ -1,0 +1,70 @@
+
+#footer {
+    bbackground: rgb(242,113,193);
+    background: linear-gradient(85deg, rgba(242,113,193,1) 1%, rgba(242,231,180,1) 194%, rgba(2,0,36,1) 201%);
+}
+
+#footer a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+
+
+#carousel img {
+    max-height: 60vh;
+    object-fit: cover;
+    filter: rgba(246, 255, 169, 0);
+
+}
+
+#carousel {
+    position: relative;
+
+}
+
+#carousel .overlay {
+    position: absolute;
+    top: 0px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(248, 244, 185, 0);
+    color: rgba(245, 217, 231, 0.89);
+    
+}
+
+#carousel .carousel-indicators {
+    color: rgb(242, 113, 193);
+}   
+
+#about p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #f8f9fa;
+    
+
+}
+
+#about {
+    background: linear-gradient(85deg, rgba(242,113,193,1) 1%, rgba(239,227,175,1) 194%, rgba(195,195,195,1) 201%);
+}
+
+#optional p, h2 {
+    color: rgba(1, 194, 201);
+}
+
+h1 {
+    color: rgba(1, 194, 201); 
+}
+
+#optional img {
+    max-width: 100%;
+
+}
+
+#button .btn-primary {
+   
+}
+
+
+    
