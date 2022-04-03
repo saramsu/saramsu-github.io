@@ -158,7 +158,7 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col pt-5 pb-5">
-        <img src="/IMG/logo.png" alt="kashi-mashi logo">
+        <img src="/IMG/logo.jpg" alt="kashi-mashi logo">
           </div>
             <div class="col-12 col-lg-8 pt-2 pb-5 align-self-center">
            <h2>Proyectos por encargo Kashi-Mashi</h2>
@@ -175,6 +175,7 @@
 
 <!-- Formulario -->
 <section id="Formulario - proyectos por encargo" >
+  <form action="enviar2.php" method="post"></form>
   <div class="container">
     <div class="row">
       <div class="text-center">
@@ -190,12 +191,12 @@
         <div class="row">
           <div class="col">
             <div class="mb-3">
-              <label for="exampleFormControlInput1" class="form-label">Correo electrónico</label>
-              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+              <label for="exampleFormControlInput1" name="correo" class="form-label">Correo electrónico</label>
+              <input type="email" name="correo" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required="required">
             </div>
             <div class="mb-3">
               <label for="exampleFormControlTextarea1" class="form-label">Cuéntamos un poco sobre tu proyecto y sus dimensiones: alto, ancho y otras característica que quieras.</label>
-              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              <textarea class="form-control" name="mensaje" id="exampleFormControlTextarea1" rows="3"></textarea>
             </div>
           </div>
         </div>
@@ -207,7 +208,7 @@
             </div>
       <div class="form-row">
         <div class="col mb-5">
-          <button id="button" type="button btn-outline-info">Enviar</button>
+          <button id="button" type="submit">Enviar</button>
             </div>
            </div>
              </section>
